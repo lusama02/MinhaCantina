@@ -4,6 +4,30 @@
 
 <h3>Login</h3>
 
-@code {
+<form class="p-3 border border-5 rounded">
+    <div class="input-group mb-3">
+        <label for="username">
+            Username*
+            <div>
+                <input type="text" class="form-control" id="username" placeholder="Username" required autofocus />
+            </div>
+        </label>
+    </div>
 
+    <div class="input-group mb-3">
+        <label for="senha">
+            Senha*
+            <div>
+                <input type="password" class="form-control" placeholder="Senha" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+        </label>
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="button" class="btn btn-info btn-block" value="Entrar" />
+    </div>
+</form>
+
+@code {
+    
 }
