@@ -70,13 +70,3 @@ public class CategoriaController(MinhaCantinaContexto contextoCantina) : Control
 	}
 }
 
-public class CategoriaRegistroDto
-{
-	public string Nome { get; set; } // Propriedade
-}
-
-public class CategoriaRespostaDto
-{
-	public int Id { get; set; }
-	public string Nome { get; set; }
-}

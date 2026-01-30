@@ -76,23 +76,3 @@ public class AutenticacaoController(MinhaCantinaContexto contextoCantina) : Cont
 		return StatusCode(201, respostaDto);
 	}
 }
-
-public class UsuarioRegistroDto
-{
-	public string Nome { get; set; } = string.Empty;
-	public string Senha { get; set; } = string.Empty;
-	public string Username { get; set; } = string.Empty;
-}
-
-public class UsuarioRespostaDto
-{
-	public int Id { get; set; }
-	public string Nome { get; set; } = string.Empty;
-	public string Username { get; set; } = string.Empty;
-}
-
-public class UsuarioLoginDto
-{
-	public string Username { get; set; } = string.Empty;
-	public string Senha { get; set; } = string.Empty;
-}

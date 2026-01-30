@@ -13,4 +13,8 @@
     <Content Remove="wwwroot\images\cocacola.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MinhaSolucao.Biblioteca\MinhaCantina.Biblioteca.csproj" />
+  </ItemGroup>
+
 </Project>
